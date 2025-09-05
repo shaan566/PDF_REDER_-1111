@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.chat-input-area {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.chat-input-area input[type="text"] {
+  flex: 1;
+  padding: 8px;
+}
+
+.chat-input-area button,
+.upload-btn {
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.chat-input-area button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.upload-btn {
+  display: inline-block;
+}
+

@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.upload-btn {
+  margin-left: 8px;
+  padding: 6px 10px;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.upload-btn:hover {
+  background: #0056b3;
+}
